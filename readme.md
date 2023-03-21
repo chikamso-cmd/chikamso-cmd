@@ -1,2 +1,3 @@
-css card design 
-open for improvements
+css only product card design
+
+
