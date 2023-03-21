@@ -1,0 +1,95 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(11, 209, 100), rgb(214, 193, 6));
+}
+.card {
+  width: 21rem;
+  height: 28rem;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  top: 16%;
+  padding: 10px;
+}
+.card img{
+  width: 17rem;
+  translate: 30px;
+  border-radius: 10px;
+}
+.card h2{
+  font-size: 11em;
+  position: absolute;
+  text-transform: uppercase;
+  color: #dddddd7c;
+  top: 10%;
+  left: 0;
+}
+.card h1{
+  color: #0355ff;
+  text-transform: capitalize;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-size: 2em;
+}
+.card p{
+  margin: 5px;
+  font-size: 13px;
+  font-family: fantasy;
+  font-weight: 400;
+  color: #6d6969;
+  margin-bottom: 10px;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 13px;
+
+}
+.icon{
+  color: #6d6969;
+  display: flex;
+  flex: row;
+  gap: 20px;
+  font-size: 16px;
+}
+.price{
+  color: #6d6969;
+  font-size: 16px;
+}
+#cart{
+width: 50%;
+padding: 8px;
+text-transform: capitalize;
+font-size: 16px;
+border: 0;
+background: #0355ff;
+color: #fff;
+justify-content: center;
+display: flex;
+cursor: pointer;
+
+}
+@media (max-width: 300px) {
+  #wrapper {
+    width: 100%;
+  }
+  .card{
+    width: 100%;
+    height: 100%;
+  }
+}
